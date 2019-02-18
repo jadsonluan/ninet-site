@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; }
+ul { list-style: none; padding: 0; }
+li { display: inline-block; }
+
+nav {
+    background: #1a1a1a;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav ul {
+    padding: 10px;
+}
+
+a { text-decoration: none; color: white; }
