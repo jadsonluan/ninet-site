@@ -4,7 +4,7 @@ li { display: inline-block; }
 
 body > section {
     min-height: 600px;
-    background-color: #252830;
+    background-color: #830f0f;
     color: white;
 }
 
@@ -19,10 +19,6 @@ body > section:nth-child(odd) {
     background-size: 100%;
 }
 
-#nucleo {
-    background-color: #e3570b;
-}
-
 #nucleo > ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -34,7 +30,7 @@ body > section:nth-child(odd) {
     justify-content: center;
 }
 
-#nucleo > h1 {
+#nucleo > h1, #matutando > h1 , #noticias > h1, #ninete > h1, #apoiamos > h1{
     grid-column: 1 / 5;
     color: white;
     font-size: 32px;
