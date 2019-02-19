@@ -58,3 +58,28 @@ body > section:nth-child(odd) {
 }
 
 #nucleo > a:hover { background-color: skyblue; transition-duration: 0.3s;}
+
+footer {
+    background: #252830;
+    height: 100px;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img { max-width: 100%; max-height: 100%; }
+
+footer > div {
+    display: flex;
+    text-align: center;
+}
+
+footer > div a {
+    margin-left: 20px;
+}
+
+#logo-cnpq {
+    margin-top: 30px;
+}
+
+main { min-height: 400px; }
