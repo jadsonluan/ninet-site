@@ -1,5 +1,52 @@
+* { font-family: 'Raleway', sans-serif; }
+
+
+nav {
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul li {
+    margin-top: 5px;
+}
+
+nav a { 
+    color: white; 
+}
+
+nav .fas {
+    font-size: 25px;
+}
+
+a { text-decoration: none; }
+
+header {
+    background: black;
+    color: white;
+    padding: 15px 80px;
+    display: flex;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+body{
+    background: #830f0f;
+}
+
 section {
-    padding: 20px 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background: white;
+    border: solid  #e3570b 1px;
+    padding: 20px;
 }
 
 section h1 {
