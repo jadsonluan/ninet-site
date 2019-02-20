@@ -19,3 +19,75 @@ nav ul li a {
 nav ul li a:hover { background:     #e3570b; transition-duration: 0.33s; }
 
 a { text-decoration: none; color: white; }
+
+#ninete > section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background: white;
+    border: solid  #e3570b 1px;
+    padding: 20px;
+}
+
+#ninete p {
+    text-indent: 3em;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: black;
+}
+
+body > section {
+    min-height: 600px;
+    background-color: #830f0f;
+    color: white;
+}
+
+body > section:nth-child(odd) {
+    background-color: #e3570b;
+}
+
+#home {
+    background-image: url("https://previews.123rf.com/images/kurhan/kurhan1501/kurhan150101327/35965290-group-of-happy-people-workers-.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-size: 100%;
+}
+
+#nucleo > ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#nucleo > ul li { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nucleo > h1, #matutando > h1 , #noticias > h1, #ninete > h1, #apoiamos > h1{
+    grid-column: 1 / 5;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    background: black;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+#nucleo a {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 1000px;
+    height: 150px;
+}
+
+#nucleo a i {
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+#nucleo a:hover { color: black; transition-duration: 0.3s;}
