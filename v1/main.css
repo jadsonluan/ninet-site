@@ -2,6 +2,9 @@
 ul { list-style: none; padding: 0; }
 li { display: inline-block; }
 
+body{
+    background:  #830f0f;
+}
 body > section {
     min-height: 600px;
     background-color: #830f0f;
@@ -83,4 +86,22 @@ footer > div a {
 }
 
 main { min-height: 400px; }
+
+#ninete > section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background: white;
+    border: solid  #e3570b 1px;
+    padding: 20px;
+}
+
+#ninete p {
+    text-indent: 3em;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: black;
+}
 
