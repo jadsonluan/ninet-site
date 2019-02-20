@@ -1,5 +1,9 @@
 * { font-family: 'Raleway', sans-serif; }
 
+body{
+    background: #e3570b;
+}
+
 nav {
     margin-right: 10px;
 }
@@ -26,10 +30,18 @@ header {
 }
 
 header h1 {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header h1 small {
     font-weight: normal;
+    margin-left: 10px;
 }
 
 section {
+    padding: 30px;
     margin: 30px 80px;
     width: 700px;
     background: white;
