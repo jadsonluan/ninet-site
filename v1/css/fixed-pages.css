@@ -12,8 +12,8 @@ nav ul li {
     margin-top: 5px;
 }
 
-nav a { 
-    color: white; 
+nav a {
+    color: white;
 }
 
 nav .fas {
@@ -47,9 +47,12 @@ section {
     background: white;
 }
 
-section h1 {
-    margin-bottom: 12px;
+section h1, section h2, section h3, section h4, section h5, section h6 {
     color: #252830;
+    margin-bottom: 12px;
+}
+
+section h1 {
     display: inline-block;
 }
 
