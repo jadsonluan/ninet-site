@@ -139,7 +139,7 @@ body > section:nth-child(odd) {
       opacity: 1;
     }
     40% {
-      opacity: 1;
+      opacity: 0;
     }
   }
   .photoWrapper:nth-child(1) {
