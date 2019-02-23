@@ -94,7 +94,7 @@ section p {
 }
 
 .slider label {
-    background-color: #830f0f;
+    background-color: #e3570b;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -110,11 +110,79 @@ section p {
 }
 
 .slider li:nth-child(2) label {
-    left: 30px;
+    left: 25px;
 }
 
 .slider li:nth-child(3) label {
-    left: 50px;
+    left: 40px;
+}
+
+.slider li:nth-child(4) label {
+    left: 55px;
+}
+
+.slider li:nth-child(5) label {
+    left: 70px;
+}
+
+.slider li:nth-child(6) label {
+    left: 85px;
+}
+
+.slider li:nth-child(7) label {
+    left: 100px;
+}
+
+.slider li:nth-child(8) label {
+    left: 115px;
+}
+
+.slider li:nth-child(9) label {
+    left: 130px;
+}
+
+.slider li:nth-child(10) label {
+    left: 145px;
+}
+
+.slider li:nth-child(11) label {
+    left: 160px;
+}
+
+.slider li:nth-child(12) label {
+    left: 175px;
+}
+
+.slider li:nth-child(13) label {
+    left: 190px;
+}
+
+.slider li:nth-child(14) label {
+    left: 205px;
+}
+
+.slider li:nth-child(15) label {
+    left: 220px;
+}
+
+.slider li:nth-child(16) label {
+    left: 235px;
+}
+
+.slider li:nth-child(17) label {
+    left: 250px;
+}
+
+.slider li:nth-child(18) label {
+    left: 265px;
+}
+
+.slider li:nth-child(19) label {
+    left: 280px;
+}
+
+.slider li:nth-child(20) label {
+    left: 295px;
 }
 
 .slider img {
