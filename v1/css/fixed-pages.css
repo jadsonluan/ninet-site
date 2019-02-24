@@ -64,134 +64,16 @@ section p {
 
 * { margin: 0; padding: 0; }
 
-.slider {
-    display: block;
-    height: 293px;
-    width: 600px;
-    margin: auto;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    /* margin: auto; */
-    height: 300px;
+.mySlides img {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 500px;
     vertical-align: top;
-    /* border: 4px solid #e3570b; */
-    /* border-radius: 10px; */
-    /* -webkit-box-shadow: 4px 4px 3px 0px rgba(153, 49, 54, 0.8); */
-    /* -moz-box-shadow:    4px 4px 3px 0px rgba(153, 49, 54, 0.8); */
-    /* box-shadow:         4px 4px 3px 0px rgba(153, 49, 54, 0.8); */
 }
 
-.slider input {
-    display: none;
-}
-
-.slider label {
-    background-color: #e3570b;
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    position: relative;
-    width: 10px;
-    z-index: 10;
-    border-radius: 100%;
-}
-
-.slider li:nth-child(1) label {
-    left: 10px;
-}
-
-.slider li:nth-child(2) label {
-    left: 25px;
-}
-
-.slider li:nth-child(3) label {
-    left: 40px;
-}
-
-.slider li:nth-child(4) label {
-    left: 55px;
-}
-
-.slider li:nth-child(5) label {
-    left: 70px;
-}
-
-.slider li:nth-child(6) label {
-    left: 85px;
-}
-
-.slider li:nth-child(7) label {
-    left: 100px;
-}
-
-.slider li:nth-child(8) label {
-    left: 115px;
-}
-
-.slider li:nth-child(9) label {
-    left: 130px;
-}
-
-.slider li:nth-child(10) label {
-    left: 145px;
-}
-
-.slider li:nth-child(11) label {
-    left: 160px;
-}
-
-.slider li:nth-child(12) label {
-    left: 175px;
-}
-
-.slider li:nth-child(13) label {
-    left: 190px;
-}
-
-.slider li:nth-child(14) label {
-    left: 205px;
-}
-
-.slider li:nth-child(15) label {
-    left: 220px;
-}
-
-.slider li:nth-child(16) label {
-    left: 235px;
-}
-
-.slider li:nth-child(17) label {
-    left: 250px;
-}
-
-.slider li:nth-child(18) label {
-    left: 265px;
-}
-
-.slider li:nth-child(19) label {
-    left: 280px;
-}
-
-.slider li:nth-child(20) label {
-    left: 295px;
-}
-
-.slider img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
+.prev, .next {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    font-size: 25px;
 }
