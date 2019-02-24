@@ -80,7 +80,13 @@ body > section:nth-child(odd) {
     margin-bottom: 10px;
 }
 
-#nucleo a:hover { color: black; transition-duration: 0.3s;}
+#nucleo a:hover {
+    color: #00aedb;
+    transition-duration: 0.3s;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
 
 #ninete {
     /* padding-bottom: 30px; */
