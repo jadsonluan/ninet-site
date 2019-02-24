@@ -1,4 +1,4 @@
-html { font-family: 'Raleway', sans-serif; }
+html { font-family: 'Raleway', sans-serif; scroll-behavior: smooth;}
 * { margin: 0; padding: 0; }
 ul { list-style: none; padding: 0; }
 li { display: inline-block; }
