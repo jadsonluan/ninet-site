@@ -19,22 +19,22 @@ nav ul li a {
     max-height: 100%;
     padding: 10px;
     color: white;
+    font-weight: bold;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, #menu .menu-item.item-active a {
     border-bottom: 2px solid #00aedb;
     color: #00aedb;
-    /* animation-name: nav-hover; */
-    /* animation-duration: 1s; */
-    /* animation-iteration-count: infinite; */
+    transition-duration: 0.33s;
+    background: transparent;
 }
 
 a { text-decoration: none; }
 
-body > section {
+body > section, body > div {
     background-color: #830f0f;
     color: white;
-    min-height: 300px;
+    min-height: 100vh;
 }
 
 body > section:nth-child(odd) {
@@ -127,7 +127,6 @@ body > section:nth-child(odd) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: white;
-    min-height: 500px;
     color: white;
 }
 
@@ -276,4 +275,18 @@ body > section:nth-child(odd) {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  padding: 10px;
+  z-index: 999;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky ul li {
+  padding: 0;
 }
