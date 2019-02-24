@@ -4,6 +4,8 @@ nav {
     align-items: center;
     padding: 0 35px;
     justify-content: space-between;
+    flex-direction: row;
+    height: 80px;
 }
 
 nav > a img {
@@ -37,16 +39,12 @@ body > section, body > div {
     min-height: 100vh;
 }
 
-body > section:nth-child(odd) {
-    background-color: #e3570b;
-}
-
 #home {
     min-height: 400px;
     background-color: #1a1a1a;
 }
 
-#nucleo { min-height: 600px; }
+#nucleo { background: #e3570b; }
 #nucleo > h1 {
     text-align: center;
     padding: 50px 0;
@@ -282,11 +280,14 @@ body > section:nth-child(odd) {
   position: fixed;
   top: 0;
   min-width: 100%;
-  padding: 10px;
+  padding: 0 35px;
   z-index: 999;
+  flex-direction: row-reverse;
+  height: auto;
 }
 
+#navbar-placeholder { height: 80px; display: none; background: black;}
+
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky ul li {
-  padding: 0;
-}
+
+/* #navbar { display: none; } */
