@@ -2,8 +2,12 @@ nav {
     background: black;
     display: flex;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 35px;
     justify-content: space-between;
+}
+
+nav > a img {
+    width: 150px;
 }
 
 nav ul li {
@@ -17,10 +21,15 @@ nav ul li a {
     color: white;
 }
 
-nav ul li a:hover { background:     #e3570b; transition-duration: 0.33s; }
+nav ul li a:hover {
+    border-bottom: 2px solid #00aedb;
+    color: #00aedb;
+    /* animation-name: nav-hover; */
+    /* animation-duration: 1s; */
+    /* animation-iteration-count: infinite; */
+}
 
 a { text-decoration: none; }
-
 
 body > section {
     background-color: #830f0f;
