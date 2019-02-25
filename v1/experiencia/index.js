@@ -13,7 +13,7 @@ function expand(i, btn) {
 
 var slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 /* Class the members of each slideshow group with different CSS classes */
-var slideId = ["mySlides1", "mySlides2", "mySlide3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9", "mySlides10", "mySlides11", "mySlides12", "mySlides13", "mySlides14", "mySlides15", "mySlides16"]
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9", "mySlides10", "mySlides11", "mySlides12", "mySlides13", "mySlides14", "mySlides15", "mySlides16"]
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
