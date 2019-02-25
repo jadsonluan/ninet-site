@@ -19,7 +19,7 @@ window.onscroll = function() {lockMenu()};
 // Get the navbar
 var navbar = document.getElementById("navbar");
 var logo = document.getElementById("logo");
-
+var placeholder = document.getElementById("navbar-placeholder");
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
 
@@ -28,9 +28,11 @@ function lockMenu() {
   if (window.pageYOffset > sticky) {
     navbar.classList.add("sticky");
     logo.style.display = "none";
+    placeholder.style.display = "block";
   } else {
     navbar.classList.remove("sticky");
     logo.style.display = "block";
+    placeholder.style.display = "none";
   }
 }
 
