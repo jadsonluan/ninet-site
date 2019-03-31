@@ -107,6 +107,7 @@ body > section, body > div {
 #ninete ul li {  margin-bottom: 5px;}
 #ninete ul li a { color: white; font-weight: bold; }
 #ninete ul li a:hover { color: black; transition-duration: 0.33s;}
+#ninete > section:nth-child(2) { background: #377598; }
 #ninete > section{
     padding: 50px;
     padding-right: 80px;
@@ -121,7 +122,7 @@ body > section, body > div {
     margin-bottom: 10px;
 }
 
-#apoio {
+/*#apoio {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: white;
@@ -132,38 +133,46 @@ body > section, body > div {
     color: #4D3249;
     background: white;
     padding: 50px;
-}
+}*/
 
-#apoiadores h1, #apoiamos h1 {
+/*#apoiadores h1, #apoiamos h1 {
     border-bottom: 4px solid #4D3249;
     padding-bottom: 10px;
     margin-bottom: 10px;
+}*/
+#apoiamos > h1 {
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 42px;
+    letter-spacing: 5px;
 }
 
 #apoiamos h1 { border-color: white; }
 
-#apoiadores > div {
+/*#apoiadores > div {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
-}
+}*/
 
-#apoiadores > div > * {
+/*#apoiadores > div > * {
     padding: 10px;
 }
 
 #apoiadores img {
     width: 100px;
-}
+}*/
 
 #apoiamos {
     background: #4D3249;
     padding: 50px;
 }
-
+/*#4D3249*/
 #apoiamos > section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
 }
 
@@ -171,11 +180,7 @@ body > section, body > div {
     /* background-color: #; */
     text-align: center;
     align-items: center;
-}
-
-#apoiamos section a:hover {
     background: white;
-    transition-duration: 0.33s;
 }
 
 * {box-sizing:border-box}

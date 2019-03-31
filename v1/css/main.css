@@ -4,7 +4,7 @@ ul { list-style: none; padding: 0; }
 li { display: inline-block; }
 
 footer {
-    background: #1a1a1a;
+    background: #111;
     height: 100px;
     padding: 15px 40px;
     display: flex;
@@ -23,7 +23,7 @@ footer > div a {
 }
 
 #logo-cnpq {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 main { min-height: 400px; }
