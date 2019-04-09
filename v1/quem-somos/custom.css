@@ -1,41 +1,76 @@
+* { font-family: 'Raleway', sans-serif; }
+
+body{
+    background: #912D1E;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+nav ul li {
+    margin-top: 5px;
+}
+
+nav a {
+    color: white;
+}
+
+nav .fas {
+    font-size: 25px;
+}
+
+a { text-decoration: none; }
+
+header {
+    background: black;
+    color: white;
+    padding: 15px 80px;
+    display: flex;
+}
+
+header h1 {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header h1 small {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
 main {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 20px 80px;
-    grid-gap: 40px;
+    padding: 40px 0;
+    grid-gap: 20px;
 }
 
-body { min-height: 80vh; }
+main > section {
+    background: white;
+    margin: 0 80px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
+    padding-bottom: 20px;
+}
 
-section {
-    width: inherit;
-    height: inherit;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: min-content;
+main > section > h1 {
     text-align: center;
+    background: #4FA8DA;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
-section > * { height: min-content; }
-
-section h1 { margin-top: 10px; margin-bottom: 0;}
-
-section img {
-    margin: auto;
+main .card {
+    padding: 0 50px;
+    padding-top: 20px;
 }
 
-section span {
-    margin: auto;
-}
+main .card a { color: #4FA8DA; } 
+main .card a:hover { color:     #e3570b; } 
 
-section p {
-    text-align: center;
-    text-indent: 0;
-}
-
-footer {
-    position: absolute;
-    min-width: 100%;
-    bottom: 0;
+main .card p {
+    text-align: justify;
+    margin-top: 10px;
+    text-indent: 30px;
 }
