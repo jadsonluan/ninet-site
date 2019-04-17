@@ -87,12 +87,13 @@ body > section, body > div {
 }
 
 #ninete {
-    /* padding-bottom: 30px; */
-    display: grid;
-    grid-gap: 0;
-    grid-template-columns: 2fr 2fr;
-    min-height: 600px;
-    background: #4FA8DA;
+    padding: 50px 75px;
+    /* display: grid; */
+    /* grid-gap: 0; */
+    /* grid-template-columns: 5fr; */
+    /* min-height: 600px; */
+    background: #F2A5B9;
+    min-height: auto;
 }
 
 #ninete img {
@@ -109,11 +110,10 @@ body > section, body > div {
 #ninete ul li a:hover { color: black; transition-duration: 0.33s;}
 #ninete > section:nth-child(2) { background: #377598; }
 #ninete > section{
-    padding: 50px;
-    padding-right: 80px;
-    /* margin: 0 40px; */
-    /* margin-top: 30px; */
+    padding: 30px;
+    background-color: #4FA8DA;
     color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
 }
 
 #ninete p {
