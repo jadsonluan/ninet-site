@@ -87,59 +87,51 @@ body > section, body > div {
 }
 
 #ninete {
-    padding: 50px 75px;
-    /* display: grid; */
-    /* grid-gap: 0; */
-    /* grid-template-columns: 5fr; */
-    /* min-height: 600px; */
-    background: #F2A5B9;
-    min-height: auto;
+    padding: 50px 0px;
+    background: url('/resources/image/fotos/21.Fotos de Ninete/ninetsite.png');
+    background-position: center;
+    background-size: 100% 100%;
+    color: #1A1A1A;
 }
 
-#ninete img {
-    margin: 0px;
-    /* width: 300px; */
-    /* border-radius: 100%; */
-    /* border: 4px solid white; */
+#ninete h1 { 
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 42px;
+  letter-spacing: 5px;
+  /* text-shadow: 2px 2px 2px rgba(0,0,0,0.2); */
 }
 
-#ninete h3 { display: inline;}
-#ninete ul { padding: 5px; display: inline;}
-#ninete ul li {  margin-bottom: 5px;}
-#ninete ul li a { color: white; font-weight: bold; }
-#ninete ul li a:hover { color: black; transition-duration: 0.33s;}
-#ninete > section:nth-child(2) { background: #377598; }
-#ninete > section{
-    padding: 30px;
-    background-color: #4FA8DA;
-    color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
-}
-
+#ninete ul li a { color: black; text-shadow: 1px 1px 2px rgba(0,0,0,0.2); }
+#ninete ul li a:hover { color: white; transition-duration: 0.33s;}
 #ninete p {
     text-indent: 3em;
     text-align: justify;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
 
-/*#apoio {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background: white;
-    color: white;
+#ninete .section-text-container {
+  margin: 0 150px;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 1fr 3fr;
 }
 
-#apoiadores {
-    color: #4D3249;
-    background: white;
-    padding: 50px;
-}*/
+#ninete .section-text-container img {
+  width: 100%;
+  /* border: 1px solid white; */
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.4);
+  border-radius: 5px;
+}
 
-/*#apoiadores h1, #apoiamos h1 {
-    border-bottom: 4px solid #4D3249;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}*/
+#ninete .section-text-container > div{
+  margin: auto 0;
+
+}
+
 #apoiamos > h1 {
     text-align: center;
     padding: 25px 0;
@@ -151,25 +143,11 @@ body > section, body > div {
 
 #apoiamos h1 { border-color: white; }
 
-/*#apoiadores > div {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: center;
-}*/
-
-/*#apoiadores > div > * {
-    padding: 10px;
-}
-
-#apoiadores img {
-    width: 100px;
-}*/
-
 #apoiamos {
     background: #4D3249;
     padding: 50px;
 }
-/*#4D3249*/
+
 #apoiamos > section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -177,7 +155,6 @@ body > section, body > div {
 }
 
 #apoiamos > section a {
-    /* background-color: #; */
     text-align: center;
     align-items: center;
     background: white;
