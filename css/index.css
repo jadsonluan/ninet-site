@@ -132,7 +132,7 @@ body > section, body > div {
 
 }
 
-#potiro > h1 {
+#breve > h1 {
     text-align: center;
     padding: 25px 0;
     margin-bottom: 10px;
@@ -141,27 +141,27 @@ body > section, body > div {
     letter-spacing: 5px;
 }
 
-#potiro h1 { border-color: white; }
+#breve h1 { border-color: white; }
 
-#potiro {
+#breve {
     background: #4D3249;
     padding: 50px;
 }
 
-#potiro h2 {
+#breve h2 {
   text-align: center;
   margin-top: 25vh;
   font-size: 64px;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
 
-/* #potiro > section {
+/* #breve > section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
 }
 
-#potiro > section a {
+#breve > section a {
     text-align: center;
     align-items: center;
     background: white;
